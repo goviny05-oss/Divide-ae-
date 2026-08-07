@@ -1,0 +1,37 @@
+{
+  "name": "divide-ae",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Divide Aê! — Divida contas de restaurantes, bares e pizzarias em tempo real com amigos.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "firebase": "^12.17.1",
+    "gsap": "^3.15.0",
+    "jsqr": "^1.4.0",
+    "motion": "^13.0.0",
+    "qrcode": "^1.5.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "~19.2.14",
+    "@types/react-dom": "~19.2.3",
+    "@vite-pwa/assets-generator": "^1.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~6.0.3",
+    "vite": "^6.0.7",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^2.1.8"
+  }
+}
